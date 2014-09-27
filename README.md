@@ -10,7 +10,7 @@ chmod +x update.sh
 ./update.sh
 ```
 
-__Note: This script assumes you have the following installed:__
+#### This script assumes you have the following installed:
 
 * [node](http://nodejs.org/)
 * [n](http://davidwalsh.name/upgrade-nodejs)
