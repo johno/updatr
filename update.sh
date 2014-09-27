@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # === node/npm
+echo 'updating node and npm'
+
 npm cache clean
 
 n stable
@@ -13,8 +15,15 @@ npm update -g grunt
 npm update -g yo
 
 # === brew
+echo 'updating brew'
+
 brew update
 brew upgrade
 
 # === rvm
+echo 'updating rvm'
+
 rvm get stable
+
+# === Just 'cuz
+yo yo
