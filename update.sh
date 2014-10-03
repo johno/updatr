@@ -8,6 +8,7 @@ npm cache clean
 n stable
 
 npm update -g npm
+npm update -g npm-check-updates
 npm update -g ember-cli
 npm update -g bower
 npm update -g gulp
