@@ -1,7 +1,7 @@
 {
   "name": "updatr",
   "description": "A CLI tool for updating all the things, bower, gulp, grunt, rvm, brew, etc.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/johnotander/updatr",
   "author": {
     "name": "John Otander",
