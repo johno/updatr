@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var path = require('path');
+var log = require('verbalize');
+var argv = require('minimist')(process.argv.slice(2));
+
+console.log('Updating node and npm');
+exec('npm cache clean && n stable && npm update -g npm ember-cli bower gulp grunt yo updatr', function(err, stdout, stderr) {
+  if (err) throw err;
+  console.log(stdout);
+});
+
+console.log('Updating brew');
+exec('brew update && brew upgrade', function(err, stdout, stderr) {
+  if (err) throw err;
+  console.log(stdout);
+});
+
+console.log('Updating rvm');
+exec('rvm get stable', function(err, stdout, stderr) {
+  if (err) throw err;
+  console.log(stdout);
+});
+
+console.log('updatr complete.');

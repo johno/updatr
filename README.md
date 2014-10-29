@@ -4,6 +4,15 @@ A script for updating all the things: node, npm, brew, rvm, jekyll, etc.
 
 ## Installation
 
+### Use the node CLI tool
+
+```
+npm install -g updatr
+updatr
+```
+
+### Run the bash script
+
 ```
 git clone https://github.com/johnotander/updatr.git && cd updatr
 chmod +x update.sh

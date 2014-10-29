@@ -1,0 +1,42 @@
+{
+  "name": "updatr",
+  "description": "A CLI tool for updating all the things, bower, gulp, grunt, rvm, brew, etc.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/johnotander/updatr",
+  "author": {
+    "name": "John Otander",
+    "url": "http://johnotander.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/johnotander/updatr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnotander/updatr/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/johnotander/updatr/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "cli",
+    "command line"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "updatr": "./bin/updatr"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "mocha -R test"
+  },
+  "dependencies": {
+    "minimist": "~0.0.8",
+    "verbalize": "~0.1.1"
+  }
+}
